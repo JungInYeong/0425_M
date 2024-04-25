@@ -4,7 +4,7 @@ using namespace std;
 int main()
 {
 	int student;
-	double sum = -0;
+	double sum = 0;
 	cout << "몇 명의 학생입니까? : ";
 	cin >> student;
 
