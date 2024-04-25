@@ -19,6 +19,7 @@ int main()
 		if (student == i + 1)
 		{
 			cout << "¼ºÀû Æò±Õ : " << sum/student;
+			break;
 		}
 	}
 	delete[] grad;
