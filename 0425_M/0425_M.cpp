@@ -13,23 +13,26 @@ int main()
 		{"조나단", "20", "82", "29" }
 	};
 
-	int col = sizeof(pyo[0]) / sizeof(string);
-	int row = sizeof(pyo) / sizeof(pyo[0]);
+	int col = sizeof(pyo[0]) / sizeof(string); // 2차원 배열 가로크기 구하기, 가로 한 줄의 크기를 요소의 크기로 나눠줌
+	int row = sizeof(pyo) / sizeof(pyo[0]);    // 2차원 배열 세로크기 구하기, 배열이 차지하는 전체 공간을 가로 한 줄의 크기로 나눠줌
 
 	string age;
 	cout << "나이를 입력하세요 : ";
 	cin >> age;
 
-	string col_first = pyo[0][0];
-	string col_third = pyo[0][3];
+	string col_first = pyo[0][0];  //이름 
+	string col_third = pyo[0][3];  // 수학
+
 	// j, i
 	cout << col_first << "   " << col_third << endl;
-	for (int i = 0; i < row; i++) 
+
+
+	for (int i = 0; i < row; i++)  
 	{
 		for (int j = 0; j < col; j++) 
 		{
 			//cout << col_first << " " << col_third << endl;
-			if (j == 1)
+			if (j == 1)                                              // 나이가 같다면
 			{
 				if (pyo[i][j] == age)
 				{
