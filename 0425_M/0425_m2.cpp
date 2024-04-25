@@ -23,15 +23,15 @@ void reverse(int*rever)
 {
 	for (int i = 0; i < Size; i++)
 	{
-		cout << rever[i];
+		cout << rever[i] << " ";
 	}
 
 }
 
 void reverse2(int rever[])
 {
-	for (int i = Size - 1; i > 0; i--)
+	for (int i = Size - 1; i >= 0; i--)
 	{
-		cout << rever[i];
+		cout << rever[i] << " ";
 	}
 }
