@@ -16,6 +16,7 @@ int main()
 	int col = sizeof(pyo[0]) / sizeof(string); // 2차원 배열 가로크기 구하기, 가로 한 줄의 크기를 요소의 크기로 나눠줌
 	int row = sizeof(pyo) / sizeof(pyo[0]);    // 2차원 배열 세로크기 구하기, 배열이 차지하는 전체 공간을 가로 한 줄의 크기로 나눠줌
 
+
 	string age;
 	cout << "나이를 입력하세요 : ";
 	cin >> age;

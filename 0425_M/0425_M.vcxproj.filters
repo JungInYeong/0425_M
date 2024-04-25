@@ -18,5 +18,11 @@
     <ClCompile Include="0425_M.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="0425m1.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="0425_m2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
