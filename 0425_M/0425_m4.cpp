@@ -21,7 +21,7 @@ int main()
 			cout << "¼ºÀû Æò±Õ : " << sum/student;
 		}
 	}
-
+	delete[] grad;
 
 	return 0;
 }
