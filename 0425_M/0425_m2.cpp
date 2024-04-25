@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 #define num 10
 using namespace std;
 
@@ -10,9 +10,9 @@ int main()
 {
 	int number[num] = {1,2,3,4,5,6,7,8,9,10};
 
-	cout << "¿ø·¡¼ø¼­ "; reverse(number);
+	cout << "ì›ëž˜ìˆœì„œ "; reverse(number);
 	cout << endl;
-	cout << "¿ª¼ø";  reverse2(number);
+	cout << "ì—­ìˆœ";  reverse2(number);
 
 	return 0;
 }
@@ -24,6 +24,7 @@ void reverse(int*rever)
 	{
 		cout << rever[i];
 	}
+
 }
 
 void reverse2(int rever[])
